@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<main>
+    <% if (jovens.length === 0) { %>
+        <p>Nenhum jovem encontrado com este critério.</p>
+    <% } else { %>
+        <ul>
+            <% jovens.forEach(j => { %>
+                <li class="<%= j.horasPorDia > 8 ? 'negrito' : '' %>">
+                    <%= j.nome %> - <%= j.idade %> anos | 
+                    Rede: <%= j.redeFavorita %> | 
+                    Uso: <%= j.horasPorDia %>h/dia
+                </li>
+            <% }) %>
+        </ul>
+    <% } %>
+</main>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<div class="alerta-box">
+    <h2>ATENÇÃO: Estes jovens passam 10 horas ou mais por dia nas redes sociais.</h2>
+    <p>Isso pode afetar a saúde mental e o desempenho escolar!</p>
+</div>
+
+<ul>
+    <% jovens.filter(j => j.horasPorDia >= 10).forEach(j => { %>
+        <li>
+            <strong>Nome:</strong> <%= j.nome %> | 
+            <strong>Idade:</strong> <%= j.idade %> | 
+            <strong>Rede:</strong> <%= j.redeFavorita %> | 
+            <strong>Horas:</strong> <%= j.horasPorDia %>
+        </li>
+    <% }) %>
+</ul>
+
+<%- include('partials/footer') %>

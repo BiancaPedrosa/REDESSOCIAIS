@@ -1,0 +1,82 @@
+[
+  {
+    "nome": "Ana Souza",
+    "idade": 16,
+    "horasPorDia": 7.5,
+    "redeFavorita": "Tik Tok",
+    "afetado": true,
+    "rendimentoEscolar": "baixo"
+  },
+  {
+    "nome": "Carlos Lima",
+    "idade": 17,
+    "horasPorDia": 4.0,
+    "redeFavorita": "Instagram",
+    "afetado": false,
+    "rendimentoEscolar": "alto"
+  },
+  {
+    "nome": "Julia Mendes",
+    "idade": 15,
+    "horasPorDia": 9.0,
+    "redeFavorita": "Tik Tok",
+    "afetado": true,
+    "rendimentoEscolar": "baixo"
+  },
+  {
+    "nome": "Rafael Silva",
+    "idade": 18,
+    "horasPorDia": 2.5,
+    "redeFavorita": "YouTube",
+    "afetado": false,
+    "rendimentoEscolar": "alto"
+  },
+  {
+    "nome": "Mariana Costa",
+    "idade": 16,
+    "horasPorDia": 6.0,
+    "redeFavorita": "Instagram",
+    "afetado": true,
+    "rendimentoEscolar": "medio"
+  },
+  {
+    "nome": "Pedro Rocha",
+    "idade": 17,
+    "horasPorDia": 0.0,
+    "redeFavorita": "nenhuma",
+    "afetado": false,
+    "rendimentoEscolar": "alto"
+  },
+  {
+    "nome": "Larissa Dias",
+    "idade": 14,
+    "horasPorDia": 10.0,
+    "redeFavorita": "X",
+    "afetado": true,
+    "rendimentoEscolar": "baixo"
+  },
+  {
+    "nome": "Felipe Neto",
+    "idade": 19,
+    "horasPorDia": 5.5,
+    "redeFavorita": "YouTube",
+    "afetado": true,
+    "rendimentoEscolar": "medio"
+  },
+  {
+    "nome": "Bruna Reis",
+    "idade": 15,
+    "horasPorDia": 1.0,
+    "redeFavorita": "nenhuma",
+    "afetado": false,
+    "rendimentoEscolar": "alto"
+  },
+  {
+    "nome": "Thiago Andrade",
+    "idade": 13,
+    "horasPorDia": 12.0,
+    "redeFavorita": "Tik Tok",
+    "afetado": true,
+    "rendimentoEscolar": "baixo"
+  }
+]

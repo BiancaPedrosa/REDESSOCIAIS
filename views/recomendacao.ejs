@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+<h2>Recomendações Personalizadas</h2>
+
+<% jovens.forEach(j => { %>
+    <div>
+        <h3><%= j.nome %></h3>
+        <ul>
+            <% let rec = false; %>
+            <% if (j.rendimentoEscolar === "baixo") { %>
+                <li>Buscar acompanhamento pedagógico</li>
+                <% rec = true; %>
+            <% } %>
+            <% if (j.horasPorDia >= 6) { %>
+                <li>Estabelecer limite diário de uso</li>
+                <% rec = true; %>
+            <% } %>
+            <% if (j.afetado) { %>
+                <li>Avaliar impacto na saúde mental</li>
+                <% rec = true; %>
+            <% } %>
+            <% if (!rec) { %>
+                <li>Jovem saudável - nenhuma recomendação no momento</li>
+            <% } %>
+        </ul>
+    </div>
+<% }) %>
+
+<%- include('partials/footer') %>
