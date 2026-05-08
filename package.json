@@ -1,0 +1,15 @@
+{
+  "name": "redessociais",
+  "version": "1.0.0",
+  "description": "Aplicação para analisar uso de redes sociais por jovens usando Node.js, Express e EJS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Bianca Pedrosa",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.4"
+  }
+}
